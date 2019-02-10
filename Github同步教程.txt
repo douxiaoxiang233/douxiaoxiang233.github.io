@@ -1,0 +1,11 @@
+1. 在GitHub上新建一个仓库地址： http://github.com/......git
+
+2. 在需要上传的文件夹目录下，运行 git   init  初始化git；
+
+3. 运行git  add 命令，将需要上传的内容放到暂存区，
+
+4. 运行 git  commit   -m  "上传说明"  将暂存区的的内容放入到仓储里面；
+
+5. 运行 git  remote  add origin  http://github.com/......git,将仓储与GitHub仓库联系起来；
+
+6. 运行  git  push  origin  master  将文件提交到GitHub仓库里面，这样就完成了文件夹的提交。

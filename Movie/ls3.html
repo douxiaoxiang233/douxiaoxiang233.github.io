@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, user-scalable=0, minimal-ui">
+    <title>雷神3</title>
+</head>
+<body>
+<script type="text/javascript" src="../ckplayer/ckplayer.js"></script>
+<div id="video" style="width:1000px;height:600px;"></div>
+<script type="text/javascript">
+    var videoObject = {
+        container: '#video',//“#”代表容器的ID，“.”或“”代表容器的class
+        variable: 'player',//该属性必需设置，值等于下面的new chplayer()的对象
+        flashplayer:false,//如果强制使用flashplayer则设置成true
+        video:'https://videos5.yijiaren888.com:777/2018/11/22/S4TBf20A1C09TMmX/playlist.m3u8'//视频地址
+    };
+    var player=new ckplayer(videoObject);
+</script>
+</body>
+</html>

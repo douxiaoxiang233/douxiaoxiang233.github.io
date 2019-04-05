@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="initial-scale=1, user-scalable=0, minimal-ui">
+<title>海王</title>
+</head>
+<body>
+<script type="text/javascript"src="../ckplayer/ckplayer.js">
+</script>
+<div id="video"style="width:1000px;height:600px;"></div>
+<script type="text/javascript">
+var videoObject = {
+container: '#video',
+variable: 'player',
+flashplayer:false,
+video:'https://cdn.letv-cdn.com/2019/03/06/W0xOpTkmCgNblr8D/playlist.m3u8'
+};
+    var player=new ckplayer(videoObject);
+</script>
+</body>
+</html>

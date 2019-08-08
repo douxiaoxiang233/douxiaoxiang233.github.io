@@ -1,0 +1,18 @@
+1.百度搜索API
+
+(1)百度的调用接口为：
+
+<form action="http://www.baidu.com/baidu" target="_blank">
+ <input type=text name=word size=40><input type="submit" value="百度搜索">
+</form>
+
+注意输入搜索关键字的文本框name为word，不能为其它。
+
+我们这里说的接口均是通过web页面，通过浏览器来调用，如果通过winForm应用程序调用，那要得使用的百度和google各自另外专用的API接口。
+(2)http://www.baidu.com.cn/s?wd=  +" "+&cl=3
+
+
+
+
+2.https://www.70url.com/ API
+(1)https://www.70url.com/?wd=火影忍者

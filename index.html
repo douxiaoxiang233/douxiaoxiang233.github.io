@@ -5,14 +5,44 @@
     <meta charset="utf-8" />
     <title>次元网站</title>
 </head>
+    
 <body>
-  <div id="title">
+    <script type="text/javascript">
+        function sousuoBd()
+        {
+            var x = document.getElementById("bd").value;
+            window.open("http://www.baidu.com.cn/s?wd="+x+"&cl=3");
+        }
+        function sousuoSP()
+        {
+            var y = document.getElementById("sp").value;
+            window.open("https://www.70url.com/?wd="+y);
+        }
+    </script>
+    <div id="title" style="width:200px;height:100%">
+     
       <a href="html/freeSeeMovie.html" target="_blank" > 
           <img  src="img/freeSeeMovie.png"/>
       </a>
-      <a href="html/ciyuandaohang.html" target="_blank" > 
+      <a href="html/ciyuandaohang.html" target="_blank" style="margin-left:0px"> 
           <img  src="img/CiYuanDaohang.png"/>
       </a>
+
   </div>
+    <div id="top" style="width:300px;height:100px">
+         <span> <input id="bd" value="" style="padding-left:10px;height:30px;margin-top:0px;"/><button onclick="sousuoBd()" style="width:100px;height:30px;margin-top:0px;">百度一下</button></span>
+      
+        <span> <input id="sp" value="" style="padding-left:10px;height:30px;margin-top:10px;"/><button onclick="sousuoSP()" style="width:100px;height:30px;margin-top:10px;">搜索视频</button></span>
+             <iframe style="margin-top:10px"  width="200px" height="86px" src="//music.163.com/outchain/player?type=2&id=28099920&auto=1&height=66"></iframe>
+
+    </div>
+    
+  
+
+    <div id="body">
+
+    </div>
+
+  
 </body>
 </html>

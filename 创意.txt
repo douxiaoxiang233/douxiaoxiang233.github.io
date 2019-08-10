@@ -4,4 +4,6 @@ icon
 手机自适应
 魔改百度搜索(主页面更改,跳转时更改跳转页面的id样式[用javascript])或找到api
 解析视频api
-刷赞
+刷赞。
+b站up主打广告视频嵌在index里(iframe flansh链接代码镶嵌)
+Dogecload;
